@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        #main {
+            width: 320px;
+            height: 300px;
+            border: 1px solid black; 
+            display: flex;
+            flex-direction: column;
+            align-content:center;
+        }
+        
+        #main div {
+            flex: 1;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+        }
+        </style>
+</head>
+<body>
+    <h1>The align-items Property</h1>
+    <h2>center</h2>
+
+<!-- <div id="main">
+    <div style="background-color:coral;min-height:30px;">RED</div>
+    <div style="background-color:lightblue;min-height:50px;">BLUE</div>  
+    <div style="background-color:lightgreen;min-height:190px;">Green div with more content.</div>
+</div> -->
+
+<div id="main">
+    <div><img src="Naruto.jpg" alt="" min-height="30px" width="30px"></div>
+    <div><img src="saske.jpg" alt=""  min-height="50px" width="50px"></div>
+    <div><img src="sakura.jpg" alt=""  min-height="190px" width="190px"></div>
+</div>
+</body>
+</html>

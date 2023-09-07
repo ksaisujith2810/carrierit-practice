@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+    </style>
+</head>    
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="fname">Username:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><label for="COE">City of <br> employment:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+            <td>
+                <label> WEb Server: </label>
+            </td>
+                <td>
+                    <select >  
+                    <option>--Choose a server--</option>    
+                    <option> google </option>  
+                    <option > chrome  </option> 
+                    <option > microsoft edge</option>  
+                    </select> 
+                </td>
+            </tr>
+            
+                <tr>
+                    <table>
+                        <td rowspan="4"><label for="">Please specify <br> your role:</label></td>     
+                        <td><input type="radio" name="role">Admin  <br>
+                        <input type="radio" name="role">Engineer <br>
+                        <input type="radio" name="role">Manager <br>
+                        <input type="radio" name="role">Guest</td> 
+                    </table>
+                </tr>
+            
+            <tr>
+                <table>
+                    <td rowspan="4"><label for="">Single Sign-on <br> to the Following:</label></td> 
+                <td><input type="checkbox">Mail <br>
+                <input type="checkbox">PayRoll <br>
+                <input type="checkbox">Self-service</td>
+                </table>
+            </tr>
+            <tr>
+                <td style="align-items: center;">
+                    <input type="button" value="Login">
+                    <input type="button" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html> 

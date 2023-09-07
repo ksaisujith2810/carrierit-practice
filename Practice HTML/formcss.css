@@ -1,0 +1,52 @@
+body {
+    background-image:url(form2.jpg);
+}
+label{
+    color: white;
+}
+fieldset {
+    background-image: url(FormBk.jpg);
+    border: 1px solid white;
+    color: white;
+    border-radius: 0px 15px;
+}
+.three{
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 25px;
+    width: auto;
+}
+.one {
+    border: 1px solid white;
+    border-radius: 0px 15px;
+    width: auto;
+    height: 30px; width: 180px;
+    background-image: linear-gradient(to right ,rgb(92, 9, 9),rgb(10, 0, 0));
+    font-style: cursive;
+}
+.two {
+    padding-right: 60px;
+}
+.four{
+    border-radius: 5px;
+    border: 1px solid white;
+    width: auto;
+    text-align: center;
+}
+section {
+    display: flex;
+    align-items: center;
+}
+.five
+{
+    display: grid;
+}
+.six{
+    width: 10px;
+    height: 10px;
+    padding: 10px 10px 0px 10px;
+}
+.seven{
+    text-align: center;
+    /* padding-left: 150px; */
+}

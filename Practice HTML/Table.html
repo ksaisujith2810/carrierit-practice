@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        #one{
+            text-align: left;
+            background-color:lightpink;
+        }
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Practice 1:</h1>
+    <table border="1px"  width="900px" height="400px">
+        <caption><b>A complex Table</b></caption>
+        <tr>
+            <th colspan="3" id="one">Invoice #123456789</th>
+            <th class="one">16th Aug 2023</th>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Pay to:</b> <br>
+            Acme Billing co. <br>
+            123 Main St. <br>
+            City ville,NA 12345</td>
+            <td colspan="2"><b>Customer:</b> <br>
+            john smith <br>
+            321 Willow Way <br>
+            Southeast NorthWestershire,MA54321    
+            </td>
+        </tr>
+        <tr>
+            <th class="one">Name/Description</th>
+            <th class="one">Qty:</th>
+            <th class="one">@</th>
+            <th class="one">Cost</th>
+        </tr>
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+        <tr>
+            <td>Staples(Box)</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+        <tr>
+            <th colspan="3" class="one">Subtotal</th>
+            <td>110.00</td>
+        </tr>
+        <tr>
+            <th colspan="2" class="one">Tax</th>
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>
+        <tr>
+            <th colspan="3" class="one">Grand Total</th>
+            <td>$118.80</td>
+        </tr>
+    </table>
+
+    <a href="table2.html">MiniProject1 with Table</a>
+</body>
+</html>
